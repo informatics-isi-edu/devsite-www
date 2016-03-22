@@ -1,0 +1,24 @@
+<header id="header">
+
+  <div class="header-position">
+    <div class="masthead">
+      <h1 class="logo">{{ site.data.settings.title }}</h1>
+      <p class="kicker">Information Systems Research Division</p>
+    </div>
+    <nav class="site-nav">
+      <ul>
+      {% for item in site.data.settings.menu %}
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+      {% if page.req_authn %}
+        <li><a class="login" href="{{  }}">Login</a></li>
+      {% endif %}
+      </ul>
+    </nav>
+
+    <a href="#" class="isi-link">ISI</a>
+
+    <div class="mobile-nav-toggle"></div>
+
+  </div>
+</header>

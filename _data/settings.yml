@@ -1,0 +1,106 @@
+#-------------------------------
+# General Site Settings
+
+title: ISRD
+description: Add description
+email: cristina@isi.edu
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Home, url: 'index.html'}
+- {name: About, url: '#about'}
+- {name: Projects, url: '#projects'}
+- {name: Technology, url: '#tech'}
+- {name: Publications, url: '#pubs'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Add description'
+  #rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  #rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  The Informatics Systems Research Division (ISRD) of ISI explores the intersection of healthcare
+  and informatics. Launched in 2008, ISRD is applying Grid computing and other advanced information
+  sciences concepts in an effort to transform the discovery processes, practice and delivery of
+  healthcare worldwide.
+
+#-------------------------------
+# Projects Section
+
+projects:
+- name: 'FaceBase'
+  url: 'https://facebase.org'
+  type: 'Coordinating Center, Faceted Data Browser'
+  img: facebase.png
+  description: >
+    FaceBase is a repository of craniofacial data established in 200? that renewed in 2014. At this point,
+    we started managing its coordinating center, providing a new data model, data browser (via Chaise/Ermrest
+    [LINK]) and coordinating data publishing and sharing between 10 project spokes to accelerate craniofacial
+    research.
+- name: '(Re)Building A Kidney'
+  url: 'http://rebuildingakidney.org'
+  type: 'Coordinating Center, Annotations Viewer'
+  img: rbk.png
+  description: >
+    The (Re)Building A Kidney consortium coordinates research for generating or repairing nephrons (or???) that
+    can function within the kidney. We are building their collaboration and data publishing infrastructure
+    including a new Annotations viewer that allows users to zoom into high quality images of kidney
+    cells and create, edit and share annotations.
+- name: 'GPCR'
+  url: 'https://gpcr-dev.misd.isi.edu/data/'
+  type: 'Data Explorer'
+  img: gpcr.png
+  description: >
+    The goal of the GPCR Consortium is to generate high-resolution pictures of hundreds of medically
+    important GPCRs (simplified description). Our goal is to allow them to catalog and discover this
+    data etc...
+
+#-------------------------------
+# Technology Section
+technologies:
+- name: 'Chaise'
+  git: 'https://github.com/informatics-isi-edu/chaise'
+  description: >
+    Chaise is a model-driven web interface (more formally a user agent) for data discovery, analysis,
+    visualization, editing, sharing and collaboration over tabular data (more specifically relational
+    data) served up as Web resources by the ERMrest service. Chaise dynamically renders relational data
+    resources based on a small set of baseline assumptions, combined with its rendering heuristics, and
+    finally user preferences in order to support common user interactions with the data. Chaise is
+    developed in JavaScript, HTML, CSS, and runs in most modern Web browsers. It is the front-end
+    component of the suite of tools including ERMrest, Hatrac, and IObox.
+- name: 'ERMrest'
+  git: 'https://github.com/informatics-isi-edu/ermrest'
+  description: >
+    ERMrest (rhymes with "earn rest") is a general relational data storage service for web-based,
+    data-oriented collaboration. It allows general entity-relationship modeling of data resources
+    manipulated by RESTful access methods.
+- name: 'Hatrac'
+  git: 'https://github.com/informatics-isi-edu/ermrest'
+  description: >
+    Hatrac (pronounced "hat rack") is a simple object storage service for web-based, data-oriented
+    collaboration. It presents a simple HTTP RESTful service model with:<ul><li>Hierarchical data
+    naming</li><li>Access control suitable for collaboration</li><li>Trivial support for browser-based
+    applications</li><li>Referential stability for immutable data</li><li>Atomic binding of names to
+    data</li><li>Consistent use of distributed data</li></ul>
