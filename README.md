@@ -1,2 +1,2 @@
 # division-www
-public website for ISRD
+Landing page for ISRD's development server.

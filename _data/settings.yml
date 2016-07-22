@@ -9,9 +9,9 @@ email: cristina@isi.edu
 
 menu:
 #- {name: Home, url: 'index.html'}
-#- {name: About, url: '#about'}
-#- {name: Projects, url: '#projects'}
-#- {name: Technology, url: '#tech'}
+- {name: GitHub, url: 'https://github.com/informatics-isi-edu'}
+- {name: Slack, url: 'https://isi-isrd.slack.com/'}
+- {name: Chaise Wiki, url: 'https://github.com/informatics-isi-edu/chaise/wiki'}
 #- {name: Publications, url: '#pubs'}
 #- {name: Contact, url: '#contact'}
 
