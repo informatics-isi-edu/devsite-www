@@ -29,16 +29,20 @@
 
       <h3 id="about" class="bigger">Development Server</h3>
       <div class="blurb">
-        <p> The following links are latest deployed examples of
-        <strong>Chaise</strong> apps:</p>
-        <ul>
-        	<li><a href="/chaise/search/">Search</a></li>
-          <li><a href="/chaise/record/#1/legacy:dataset/id=269">Record</a></li>
-          <li><a href="/chaise/record-two/#1/legacy:dataset/id=269">Record2</a></li>
-          <li><a href="https://synapse-dev.isrd.isi.edu/chaise/recordedit/#2/Zebrafish:Subject">RecordEdit</a></li>
-          <li><a href="https://dev.isrd.isi.edu/~jchudy/chaise/recordset/#1/legacy:dataset/id::gt::100&id::lt::13000@sort(summary)">RecordSet</a></li>
-          <li><a href="https://dev.rebuildingakidney.org/chaise/viewer/#1/rbk:image/id=46">Viewer</a></li>
-        </ul>
+        <p> The following links are the best deployments to view as examples of the latest
+        <strong>Chaise</strong> code:</p>
+        <dl>
+        	<dt><a href="/chaise/search/">Search</a></dt>
+          <dd></dd>
+          <dt><a href="/chaise/record/#1/legacy:dataset/id=269">Record</a> and <a href="/chaise/record-two/#1/legacy:dataset/id=269">Record2</a></dt>
+          <dd>Note: The links to search "Record" and "Record2" can be used to navigate to any record page. If you want to see that same record in record-two, you just need to change the url to include "record-two" instead of "record". Currently nothing links directly to "record-two".</dd>
+          <dt><a href="https://synapse-dev.isrd.isi.edu/chaise/recordedit/#2/Zebrafish:Subject">RecordEdit</a> (Synapse)</dt>
+          <dd>Note: <a href="/chaise/recordedit/#1/public:form_test">dev.isrd.isi.edu/chaise/recordedit/#1/public:form_test</a> should also work and is the most up to date code for recordedit. But the chaise config parameter <code>editRecord</code> must be set to "false" for that deployment, so you only get a popup notification that returns the user to the landing page for that project.</dd>
+          <dt><a href="/chaise/recordset/#1/legacy:dataset/id::gt::100&id::lt::13000@sort(summary)">RecordSet</a></dt>
+          <dd></dd>
+          <dt><a href="https://dev.rebuildingakidney.org/chaise/viewer/#1/rbk:image/id=46">Viewer</a> (RBK)</dt>
+          <dd>Note: If you navigate to https://dev.rebuildingakidney.org/chaise/search, you can pick any of the records that appear in search and they should redirect to Viewer. If you are feeling curious, https://dev.rebuildingakidney.org/chaise/viewer/#1/rbk:image/id=1 has a large amount of annotations from testing and will probably have the best set of data for the latest search features and showing/hiding annotations.</dd>
+        </dl>
       </div>
     </div>
   </div>
