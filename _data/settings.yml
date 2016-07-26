@@ -13,7 +13,7 @@ menu:
 - {name: GitHub, url: 'https://github.com/informatics-isi-edu'}
 - {name: Slack, url: 'https://isi-isrd.slack.com/'}
 - {name: Division Wiki, url: 'https://github.com/informatics-isi-edu/division/wiki'}
-- {name: Chaise Wiki, url: 'https://github.com/informatics-isi-edu/chaise/wiki'}
+#- {name: Chaise Wiki, url: 'https://github.com/informatics-isi-edu/chaise/wiki'}
 
 #-------------------------------
 # SEO Section
